@@ -6,7 +6,7 @@ class App extends Component {
   state = {words:[], input:'',fresh:true}
 
   handleKeypadPress(value) {
-    const maxInput = 7; // otherwise the program hangs due to combinatorical explosion
+    const maxInput = 10; // otherwise the program hangs due to combinatorical explosion
     if (this.state.input.length < maxInput) {
       this.setState({
         input: this.state.input + value.toString()
