@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.keypad-row {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+.keypad-key {
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 100%;
+  background-color: lightgray;
+  font-size: 4em;
+  cursor: pointer;
+}
+.key-digit { display: inline; }
+.key-letters { display: inline; }
+#display-wrapper { min-height: 4em; }
+#display { font-size: 3em; }
+#result { font-size: 1em; }
